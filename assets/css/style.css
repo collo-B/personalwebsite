@@ -14,11 +14,13 @@ nav {
   justify-content: space-between;
   background-color: rgb(41, 31, 31);
   height: 218px;
+  border-radius: 15px;
 }
 
 .logo>img {
   height: 200px;
   width: 350px;
+ border-radius: 10px;
 }
 
 nav>.logo,
@@ -29,34 +31,34 @@ nav>.logo,
 nav>.navLinks>ul>li {
   display: inline-block;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5px;
   text-align: center;
-  border: 2px solid #058d0a;
+  border: 2px solid whitesmoke;
   margin-left: 50px;
 }
 
 nav>.navLinks>ul>li {
-  color: #058d0a;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 nav>.navLinks>ul>li>a {
-  color: #058d0a;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 nav>.navLinks>ul>li:hover {
-  background-color: #21ec28;
+  background-color: rgb(53, 29, 53);
 }
 
 nav>.navLinks>ul>li a:hover {
-  color: black;
+  color:black;
 }
 
 /* dropdown */
 .dropbtn {
-  color: #058d0a;
+  color: whitesmoke;
   font-size: 20px;
   border: none;
 }
@@ -71,7 +73,7 @@ nav>.navLinks>ul>li a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #058d0a;
+  background-color: rgb(53, 29, 53);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -79,7 +81,7 @@ nav>.navLinks>ul>li a:hover {
 }
 
 .dropdown-content a {
-  color: black;
+  color: whitesmoke;
   padding: 8px 12px;
   text-decoration: none;
   display: block;
@@ -102,14 +104,17 @@ nav>.navLinks>ul>li a:hover {
       height: 500px;
       width: 500px;
       background-color: rgb(41, 31, 31);
+      border-radius: 15px;
   }
   .details {
       height: 500px;
       width: 500px;
       background-color: rgb(41, 31, 31);
+      border-radius: 15px;
       }
       .details > p {
 text-align: center;
+color: whitesmoke;
       }
   .services1 {
       display: flex;
@@ -128,6 +133,7 @@ text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 15px;
 }
 /* big five gallery */
 
@@ -185,6 +191,9 @@ text-align: center;
     text-align: center;
     display: flex;
 }
+#message {
+    height: 30%;
+}
 .blog {
     height: 350px;
     background-color: rgb(41, 31, 31);
@@ -201,4 +210,55 @@ text-align: center;
 .social-links {
     display: flex;
     flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#submit {
+    margin-top: 20px;
+}
+.discover > h3{
+    margin-left: 80px;
+    color: pink;
+}
+.discover > h2{
+    margin-left: 80px;
+    color: whitesmoke;
+}
+.details > ul > li {
+    padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  list-style: none;
+}
+.details > a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: pink;
+    background-color: darkgrey;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+.offers > h3{
+    margin-left: 80px;
+    color: pink;
+}
+.offers > h2{
+    margin-left: 80px;
+    color: whitesmoke;
+}
+.offers > p {
+    max-width: 700px;
+    text-align: center;
+    margin-left: 200px;
+    color: whitesmoke;
+}
+.service > p,h3 {
+color: whitesmoke;
 }
