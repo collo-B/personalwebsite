@@ -4,9 +4,9 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-    background-image: url(../images/back10.jpg);
+    /*background-image: url(../images/back10.jpg);*/
     background-size: contain;
-    background-color: rgb(50, 59, 59);
+    background-color:  rgb(75, 64, 64);
 }
 
 nav {
@@ -106,6 +106,12 @@ nav>.navLinks>ul>li a:hover {
       background-color: rgb(41, 31, 31);
       border-radius: 15px;
   }
+  .mypic > img {
+      height: 500px;
+      width: 500px;
+      object-fit: cover;
+      border-radius: 15px;
+  }
   .details {
       height: 500px;
       width: 500px;
@@ -141,12 +147,14 @@ color: whitesmoke;
 .big {
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .five {
     width: 20%;
     background-color: rgb(41, 31, 31);
+    margin: 5px;
+    border-radius: 15px;
   }
   .five > p {
       text-align: center;
@@ -167,8 +175,6 @@ color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
-  
-  
   }
   
   .five:hover img {
@@ -190,6 +196,7 @@ color: whitesmoke;
     background-color: rgb(41, 31, 31);
     text-align: center;
     display: flex;
+    border-radius: 15px;
 }
 #message {
     height: 30%;
@@ -199,6 +206,7 @@ color: whitesmoke;
     background-color: rgb(41, 31, 31);
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 .row {
     display: flex;
@@ -206,6 +214,7 @@ color: whitesmoke;
     justify-content: space-around;
     margin-top: 50px;
     background-color: rgb(41, 31, 31);
+    border-radius: 15px;
 }
 .social-links {
     display: flex;
@@ -215,6 +224,7 @@ color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 8px;
 }
 #submit {
     margin-top: 20px;
@@ -261,4 +271,49 @@ color: whitesmoke;
 }
 .service > p,h3 {
 color: whitesmoke;
+}
+.activity > h3{
+    margin-left: 80px;
+    color: pink;
+}
+.activity > h2{
+    margin-left: 80px;
+    color: whitesmoke;
+}
+.outy > h3{
+    margin-left: 80px;
+    color: pink;
+}
+.outy > h2{
+    margin-left: 80px;
+    color: whitesmoke;
+}
+.blog > a {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    color: pink;
+    background-color: darkgrey;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 5px;
+    border: 2px solid pink;
+    border-radius: 5px;    
+}
+#p1 {
+    margin-top: 130px;
+    color: whitesmoke;
+}
+.list-header {
+    color: whitesmoke;
+}
+#xx {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: pink;  
+}
+#xy {
+    color: pink;
 }
