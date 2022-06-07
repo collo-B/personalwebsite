@@ -49,7 +49,7 @@ nav>.navLinks>ul>li>a {
 }
 
 nav>.navLinks>ul>li:hover {
-  background-color: rgb(53, 29, 53);
+  background-color: whitesmoke;
 }
 
 nav>.navLinks>ul>li a:hover {
@@ -316,4 +316,8 @@ color: whitesmoke;
 }
 #xy {
     color: pink;
+}
+#trip {
+  height: 7px;
+  width: 7px;
 }
